@@ -1,38 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(47, 55, 71);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  margin:auto;
+  margin-top: 20px;
+  width: 300px;
+  height: 840px;
+  background-color: rgb(35, 35, 57);
+  border-radius: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pfp{
+  width:300px;
+  height: 300px;
+  border-radius: 5% 5% 0% 0%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  padding:0;
+}
+
+.header > h4{
+  margin-top: 0px;
+  margin-bottom:5px;
+  color:rgb(253, 177, 36);
+  font-weight: 400;
+  font-size:smaller;
+}
+
+.header > h3{
+  color:white;
+  font-weight: 400;
+  font-size:smaller;
+}
+
+.Name{
+  margin-bottom:0px;
+  color:white;
+}
+
+button{
+  width:125px;
+  padding:10px;
+  border-radius:25%;
+  margin: auto;
+  margin-right: 5px;
+}
+
+
+.LinkedIn{
+  background-color: rgb(0, 119, 255);
+  color:white;
+}
+
+.Main{
+  width:250px;
+  text-align: left;
+  margin-left: 20px;
+  border-color: black;
+  height:fit-content;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Main > p{
+  margin-top:0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer{
+  width:300px;
+  height:65px;
+  background-color: rgb(46, 46, 53);
+  border-radius: 0% 0% 20% 20%;
+  display: flex;
+  justify-content: space-evenly;
+  padding:15px;
 }
+
+.icon{
+  width:30px;
+}
+
